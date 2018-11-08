@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/main/webapp/WEB-INF=UTF-8
+encoding//src/main/webapp/WEB-INF/classes/i18n/Messages_en_EN.properties=ISO-8859-1
+encoding//src/main/webapp/WEB-INF/classes/i18n/Messages_ru_RU.properties=ISO-8859-1
+encoding//src/main/webapp/index.jsp=UTF-8

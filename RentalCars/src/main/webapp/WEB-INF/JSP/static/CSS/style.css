@@ -1,0 +1,172 @@
+body{
+	background-color: #BEB7FF;
+}
+
+.signin {
+	border: 2px solid #0000FF;
+	padding: 15px;
+	border-radius: 40px;
+	box-shadow: 9px 9px 9px #00008B;
+	margin-left: 350px;
+	margin-right: 350px;
+	margin-top: 100px;
+	background-color: #00FFFF;
+	opacity: 0.9;
+}
+
+.reg {
+	font-size: 17px;
+	margin: 5px;
+	border-radius: 100px;
+	text-align: center;
+}
+
+.batton {
+	margin: 0 auto;
+}
+
+.border {
+	box-shadow: 2px 2px 2px #00008B;
+	padding: 9px;
+	border: 2px solid #0000FF;
+}
+
+.border:hover {
+	box-shadow: 2px 2px 2px #00008B;
+	border: 3px solid #0000FF;
+}
+
+.table_price {
+	border-collapse: collapse;
+	border-left: 3px solid #0000FF;
+	border-right: 3px solid #0000FF;
+	border-bottom: 3px solid #0000FF;
+	font-family: "Lucida Grande", sans-serif;
+}
+
+.table_price caption {
+	background: #0000FF;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 10px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3);
+	color: white;
+	font-family: "Roboto Slab", serif;
+	font-style: normal;
+	font-size: 26px;
+	text-align: center;
+	margin: 0;
+}
+
+.table_price td, .table_price th {
+	padding: 10px;
+	text-align: center;
+	text-align: center;
+}
+
+.table_price th {
+	text-align: left;
+	font-size: 18px;
+}
+
+.table_price tr:nth-child(2n) {
+	background: #E5E5E5;
+}
+
+.table_price td:last-of-type {
+	text-align: center;
+}
+
+.table_price .select {
+	display: inline-block;
+	padding: 5px 10px;
+	background: #F79361;
+	box-shadow: 2px 2px 0 0 #a22800;
+	position: relative;
+}
+
+.table_price .select:hover {
+	box-shadow: none;
+	top: 2px;
+	left: 2px;
+}
+
+.order {
+	font-size: 17px;
+	padding: 5px;
+	text-align: center;
+}
+
+.orders {
+	text-align: center;
+	border-collapse: collapse;
+	border: 2px solid black;
+	max-width: 60%;
+	min-width: 60%;
+}
+
+.s {
+	border-right: 1px solid black;
+}
+
+.q {
+	border-right: 2px solid black;
+}
+
+.tabs {
+	float: left;
+	margin: 10px;
+}
+
+.content {
+	display: none;
+	padding-top: 20px;
+	position: absolute;
+}
+
+.tabs:active .content {
+	display: block;
+}
+
+.content:hover {
+	background-color: #3366CC;
+	display: block;
+}
+.raz {
+  text-align: right;
+}
+.language {
+    background-color: #4CAF50;
+}
+.languages{
+    position: absolute;
+	left: 80%;
+	top: 10%
+}
+.info, .success, .warning, .error, .validation {
+border: 1px solid;
+margin: 10px 0px;
+padding:15px 10px 15px 50px;
+background-repeat: no-repeat;
+background-position: 10px center;
+}
+.info {
+color: #00529B;
+background-color: #BDE5F8;
+}
+.success {
+color: #4F8A10;
+background-color: #DFF2BF;
+}
+.warning {
+color: #9F6000;
+background-color: #FEEFB3;
+}
+.error {
+color: #D8000C;
+background-color: #FFBABA;
+}
+.validation {
+color: #D63301;
+background-color: #FFCCBA;
+} 
